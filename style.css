@@ -1,0 +1,29 @@
+body {
+  background-image: url("/Zonnig\ Sunny\ Sticker\ -\ Zonnig\ Sunny\ -\ Discover\ &\ Share\ GIFs.gif");
+  background-size: contain;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+#search__container {
+  background-color: rgb(248, 246, 241);
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 2rem;
+  max-width: 500px;
+  width: 100%;
+}
+#search__input__field {
+  border: 0;
+  outline: 0;
+  background-color: transparent;
+  color: black;
+}
+#search__btn {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+#search__icon {
+  width: 15px;
+}
